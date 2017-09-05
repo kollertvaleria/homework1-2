@@ -1,0 +1,36 @@
+.ProductCaption {
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #ccc;
+    margin-top: 40px;
+}
+.ProductText {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ccc;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ProductCard {
+    position: relative;
+    margin: 0 auto;
+    width: 1152px;
+}
+.ProductPrompt {
+    position: absolute;
+    display: none;
+    bottom: 4px;
+    width: 1152px;
+    background: rgba(0,0,0,0.6);
+    padding: 0px 4px;
+}
+.ProductCard:hover .ProductPrompt {
+    display: block;
+}
